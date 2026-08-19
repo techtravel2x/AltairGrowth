@@ -5,7 +5,7 @@ backend:
 
 # Where uploaded images (FAQ icons, blog thumbnails) get stored,
 # and the path the live site will reference them at.
-media_folder: "assets/uploads"
+media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
 
 # Optional but recommended: require a review step before anything
@@ -22,7 +22,7 @@ collections:
   - name: "faq"
     label: "FAQ"
     label_singular: "FAQ Entry"
-    folder: "content/faq"
+    folder: "src/content/faq"
     create: true
     slug: "{{slug}}"
     summary: "{{fields.question}}"
@@ -46,7 +46,7 @@ collections:
   - name: "insights"
     label: "Insights"
     label_singular: "Insight"
-    folder: "content/insights"
+    folder: "src/content/insights"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} — {{date}}"
@@ -84,7 +84,7 @@ collections:
   - name: "roles"
     label: "Open Roles"
     label_singular: "Role"
-    folder: "content/roles"
+    folder: "src/content/roles"
     create: true
     slug: "{{slug}}"
     summary: "{{fields.title}}"
