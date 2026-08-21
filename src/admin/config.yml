@@ -10,7 +10,6 @@ public_folder: "/assets/uploads"
 
 # Optional but recommended: require a review step before anything
 # goes live, instead of publishing straight to the main branch.
-publish_mode: editorial_workflow
 
 site_url: https://altarisgrowth.com
 display_url: https://altarisgrowth.com
