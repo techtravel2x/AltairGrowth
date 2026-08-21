@@ -1,0 +1,12 @@
+{
+  "name": "altaris-growth-site",
+  "version": "1.0.0",
+  "description": "Altaris Growth Partners website — built with Eleventy, content managed via Sveltia CMS",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
